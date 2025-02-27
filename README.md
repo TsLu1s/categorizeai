@@ -5,7 +5,7 @@ A versatile NLP text classification application that seamlessly integrates super
 ## 🌟 Key Features
 
 - **Multi-Model Architecture**: Choose from three distinct classification approaches based on your specific domain, technical needs and data availability.
-- **Supervised Classification**: Complete pipeline from dataset creation and analysis to model training and prediction.
+- **Supervised Classification**: Complete pipeline from experiment creation and analysis to model training and prediction.
 - **Zero-Shot Classification**: Classify text into any categories without specific training using state-of-the-art transformer models.
 - **LLM-Powered Classification**: Utilize local LLMs through Ollama for context-aware, reasoning-based classification.
 - **Experiment Management**: Save, load, and track different classification experiments with customizable settings for reproducible results.
