@@ -174,7 +174,6 @@ def display_homepage():
         - [Ollama GitHub Repository](https://github.com/ollama/ollama)
         - [Installation Guide](https://ollama.ai/download)
         - [API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md)
-        
         """)
 
 def run():

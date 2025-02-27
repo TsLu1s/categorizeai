@@ -11,7 +11,6 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 if current_dir not in sys.path:
     sys.path.append(current_dir)
 
-
 # Set page config
 st.set_page_config(page_title="CategorizeAI", layout="wide")
 
@@ -22,7 +21,6 @@ def load_css(file_name):
 
 load_css('styles.css')
 PAGES = nav.get_pages()
-
 
 # Then use h1 and p with the classes
 st.markdown("""
@@ -83,10 +81,8 @@ def navigate():
 selected_category, selected_option = navigate()
 
 # Determine which function to run
-# Usage
 page_func = nav.get_page_function(selected_category, selected_option)
 page_func()
-
 
 # Display the footer
 st.markdown("""
