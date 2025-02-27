@@ -183,7 +183,6 @@ class BatchPrediction:
                             )
 
                             # Summary statistics
-                            st.markdown('### Summary Statistics')
                             col1, col2 = st.columns(2)
                             
                             with col1:
