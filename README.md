@@ -81,7 +81,6 @@ Overview of all classification approaches, use cases, and documentation resource
 * Homepage dashboard showcasing the three core classification methodologies
 * Explore detailed technical specifications and comparative performance capabilities across approaches
 * Review comprehensive use case scenarios with external data source samples recommendations
-* Navigate through interactive documentation with technical references
 
 ### 🎯 Supervised Classification
 
