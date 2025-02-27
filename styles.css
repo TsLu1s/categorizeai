@@ -1,0 +1,506 @@
+/* Modern color palette */
+:root {
+    --primary-color: #374B5D;
+    /* Muted Navy */
+    --secondary-color: #935F4C;
+    /* Tan */
+    --background-color: #FFFAE5;
+    /* Ivory */
+    --text-color: #1B1821;
+    /* Black */
+    --accent-color: #E0D7C7;
+    /* Khaki */
+    --highlight-color: #F1E2AD;
+    /* Yellow */
+    --icon-color: #56382D;
+    /* Brown */
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header styling */
+.header-title {
+    color: #FFFAE5 !important;
+    font-size: 3.2rem !important;
+    font-weight: 550 !important;
+    margin-bottom: 0.5rem !important;
+    text-shadow: 2px 2px 4px rgba(27, 24, 33, 0.2) !important;
+    line-height: 1.2 !important;
+}
+
+.header-subtitle {
+    color: #FFFAE5 !important; 
+    font-size: 1.8rem !important;
+    opacity: 0.9 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+    font-weight: 400 !important;
+}
+
+.header {
+    background: linear-gradient(135deg, #374B5D, #935F4C) !important;
+    padding: 1.2rem !important;
+    text-align: center !important;
+    border-radius: 0 0 20px 20px !important;
+    box-shadow: 0 4px 6px rgba(27, 24, 33, 0.1) !important;
+    margin-bottom: 1rem !important;
+}
+/* Animated background */
+.animated-bg::before {
+    background: linear-gradient(135deg,
+            var(--accent-color) 0%,
+            var(--highlight-color) 50%,
+            var(--background-color) 100%);
+}
+
+/* Sidebar styling */
+.sidebar .css-1d391kg {
+    background-color: var(--background-color);
+    border-right: 1px solid var(--accent-color);
+    padding: 2rem 1rem;
+}
+
+/* Main content styling */
+.main .css-1d391kg {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(86, 56, 45, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Footer styling */
+.footer {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 1.05rem;
+    padding: 0.05rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(86, 56, 45, 0.2);
+}
+
+/* Input field styling */
+.stTextInput>div>div>input {
+    border-radius: 5px;
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.stTextInput>div>div>input:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(147, 95, 76, 0.2);
+}
+
+/* Main header styling */
+.main-header {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    color: var(--primary-color) !important;
+    text-align: center !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
+    background-color: var(--accent-color) !important;
+    box-shadow: 0 4px 6px rgba(86, 56, 45, 0.1) !important;
+    margin-bottom: 0px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    transition: all 0.3s ease !important;
+}
+
+.main-header:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(86, 56, 45, 0.15);
+    background-color: var(--highlight-color);
+}
+
+/* Model selection area styling */
+.big-font1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Selectbox styling */
+.stSelectbox>div>div>div {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.stSelectbox>div>div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color);
+    border: 1px solid var(--accent-color);
+}
+
+.stSelectbox [data-baseweb="select"] {
+    height: 35px;
+    background-color: var(--background-color);
+}
+
+/* Additional custom elements */
+st.markdown styling for headers h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* File uploader styling */
+.stFileUploader {
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Progress bar styling */
+.stProgress>div>div>div {
+    background-color: var(--secondary-color);
+}
+
+
+/* ########################################################## */
+
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: var(--accent-color);
+    border-radius: 10px 10px 0 0;
+    padding: 0.5rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: var(--highlight-color);
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+/* ########################################################## */
+
+/* Navigation sidebar styling */
+.sidebar-title {
+    color: var(--primary-color) !important;
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 2px solid var(--accent-color) !important;
+}
+
+.sidebar-subtitle {
+    font-size: 18px !important;  
+    line-height: 1.4 !important;
+    margin-bottom: 5px !important;
+    font-weight: 400 !important;
+}
+
+/* Main Menu Container */
+[data-testid="stSidebar"] .nav-container {
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+/* Menu Title */
+[data-testid="stSidebar"] .nav-menu-title {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Navigation Links */
+[data-testid="stSidebar"] .nav-link {
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: all 0.3s ease;
+}
+
+/* Navigation Link Icons */
+[data-testid="stSidebar"] .nav-link-icon {
+    color: var(--icon-color);
+    font-size: 20px;
+}
+
+/* Hover state */
+[data-testid="stSidebar"] .nav-link:hover {
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+}
+
+/* Selected state */
+[data-testid="stSidebar"] .nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border-left: 4px solid var(--secondary-color);
+}
+
+/* Sub-menu styles */
+[data-testid="stSidebar"] .nav-submenu {
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+[data-testid="stSidebar"] .nav-submenu .nav-link {
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+/* Sidebar container background */
+[data-testid="stSidebar"] .css-1d391kg {
+    background-color: var(--background-color);
+}
+
+/* Sidebar divider */
+[data-testid="stSidebar"] .css-1r6slb0 {
+    background-color: var(--accent-color);
+}
+
+/* Menu icon */
+[data-testid="stSidebar"] .menu-icon {
+    color: var(--icon-color);
+    font-size: 16px;
+}
+
+/* ########################################################## */
+
+
+/* Profile Section */
+.sidebar-header {
+    background: linear-gradient(145deg, var(--accent-color), var(--background-color)) !important;
+    border-radius: 16px !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05)!important;
+    border: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
+.sidebar-description {
+    color: var(--text-color);
+    font-size: 1.2rem ;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 0.2rem;
+    font-weight: normal;
+}
+
+.custom-download-button2[target="_blank"] {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    width: 180px;
+    height: 40px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.custom-download-button2[target="_blank"]:hover {
+    background-color: #4A6275;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+/* ########################################################## */
+/* Home */
+
+.approach-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    transition: transform 0.3s ease;
+}
+.approach-card:hover {
+    transform: translateY(-5px);
+}
+.supervised-card {
+    border-top-color: #935F4C;
+}
+.zeroshot-card {
+    border-top-color: #935F4C;
+}
+.llm-card {
+    border-top-color: #935F4C;
+}
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.card-subtitle {
+    font-size: 1rem;
+    color: #6B7280;
+    margin-bottom: 1rem;
+}
+.highlight-box {
+    background-color: #F3F4F6;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.feature-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #374B5D;
+}
+.custom-button {
+    background-color: #374B5D;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.custom-button:hover {
+    background-color: #2A3A49;
+}
+.workflow-card {
+    background-color: #F9FAFB;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.workflow-step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+.step-number {
+    background-color: #374B5D;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+}
+.capability-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
+}
+.model-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.model-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.model-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.model-description {
+    font-size: 0.9rem;
+    color: #4B5563;
+    margin-bottom: 0.5rem;
+}
+.capability-tag {
+    display: inline-block;
+    background-color: #EFF6FF;
+    color: #1E40AF;
+    border-radius: 9999px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+.capabilities-list {
+    font-size: 0.85rem;
+    color: #4B5563;
+    margin-top: 0.5rem;
+}
+.info-box {
+    padding: 1rem;
+    background-color: #374B5D;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.tab-content {
+    padding: 1rem 0;
+}

@@ -1,0 +1,34 @@
+{
+  "distilbert_multilingual": {
+    "path": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    "source": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"
+  },
+  "multilingual_deberta": {
+    "path": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+    "source": "https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7"
+  },
+  "deberta_v3_small": {
+    "path": "cross-encoder/nli-deberta-v3-small",
+    "source": "https://huggingface.co/cross-encoder/nli-deberta-v3-small"
+  },
+  "deberta_v3_large": {
+    "path": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "source": "https://huggingface.co/MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli"
+  },
+  "roberta_large": {
+    "path": "roberta-large-mnli",
+    "source": "https://huggingface.co/FacebookAI/roberta-large-mnli"
+  },
+  "vinai_bertweet": {
+    "path": "vinai/bertweet-large",
+    "source": "https://huggingface.co/vinai/bertweet-large"
+  },
+  "bart_large": {
+    "path": "facebook/bart-large-mnli",
+    "source": "https://huggingface.co/facebook/bart-large-mnli"
+  },
+  "xlm_roberta": {
+    "path": "joeddav/xlm-roberta-large-xnli",
+    "source": "https://huggingface.co/joeddav/xlm-roberta-large-xnli"
+  }
+}

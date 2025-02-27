@@ -1,0 +1,14 @@
+pandas>=1.2.0
+matplotlib>=3.10.0
+plotly>=6.0.0
+wordcloud>=1.9.4
+langchain==0.3.10
+langchain-community==0.3.10
+transformers==4.49.0
+keras==3.8.0
+tf-keras==2.18.0
+scikit-learn>=1.5.2
+catboost>=1.2.7
+nltk==3.9.1
+streamlit>=1.39.0
+streamlit_option_menu>=0.4.0
