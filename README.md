@@ -146,4 +146,3 @@ Distributed under the MIT License. See [LICENSE](https://github.com/TsLu1s/categ
 ## 🔗 Contact 
  
 Luis Santos - [LinkedIn](https://www.linkedin.com/in/lu%C3%ADsfssantos/)
-
