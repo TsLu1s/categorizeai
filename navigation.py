@@ -28,7 +28,7 @@ st.markdown("""
     <div class="animated-bg"></div>
     <div class="header-content">
         <h1 class="header-title">CategorizeAI</h1>
-        <p class="header-subtitle">Multi-Model NLP Text Classification Application</p>
+        <p class="header-subtitle">Multi-Model NLP Text Classification Platform</p>
     </div>
 </div>
 """, unsafe_allow_html=True)

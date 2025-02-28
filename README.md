@@ -1,4 +1,4 @@
-# CategorizeAI: Multi-Model NLP Text Classification Application
+# CategorizeAI: Multi-Model NLP Text Classification Platform
 
 A versatile NLP text classification application that seamlessly integrates supervised learning, zero-shot classification, and LLM powered classification reasoning within an intuitive interface. Designed for precision and adaptability, it enables sophisticated text categorization across diverse domains and use cases while supporting dynamic experimentation and testing.
 
