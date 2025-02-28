@@ -46,7 +46,7 @@ def display_classification_approaches():
         <div class="approach-card zeroshot-card">
             <h3 class="card-title">🔮 Zero-Shot Classification</h3>
             <p class="card-subtitle">Classify without training using pre-trained models</p>
-            <p>Leverage transformer models to classify texts into any categories without specific training.</p>
+            <p>Leverage Hugging Face pre-trained zero-shot models to classify texts into any categories without specific training.</p>
             <div class="highlight-box">
                 <strong>Best For:</strong>
                 <ul>
@@ -77,7 +77,7 @@ def display_classification_approaches():
         <div class="approach-card llm-card">
             <h3 class="card-title">🤖 LLM Text Classification</h3>
             <p class="card-subtitle">Leverage local LLMs for advanced classification</p>
-            <p>Use powerful open-source language models through Ollama for context-aware classification.</p>
+            <p>Use powerful open-source language models through Ollama for context aware reasoning based classification.</p>
             <div class="highlight-box">
                 <strong>Best For:</strong>
                 <ul>
