@@ -362,9 +362,3 @@ def run():
     """Run the sentiment analysis data exploration interface."""
     analyzer = TextAnalysis()
     analyzer.run()
-
-
-#### Edit title markdowns to a more sophisticated font
-#### Change the Select Options with Tabs
-
-
