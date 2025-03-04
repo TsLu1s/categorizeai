@@ -285,8 +285,3 @@ def run():
     
     batch_predictor = ZeroShotBatchPrediction(**config)
     batch_predictor.run()
-
-## After loading data, add data preview 
-## Test all ZeroShot Models
-## Add the Range of Classifications in the plot analysis
-## Change CSV to XLSX
