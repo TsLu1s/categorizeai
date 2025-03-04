@@ -306,8 +306,3 @@ class LLMZeroShotClassifier:
 def run():
     classifier = LLMZeroShotClassifier()
     classifier.run()
-
-
-######## ADD MORE COLORS
-######## Make Plot Compatible with 
-######## Replace Classification Context Description with detailed instructions
