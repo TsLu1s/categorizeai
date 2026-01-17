@@ -41,16 +41,9 @@ cd categorizeai
 
 ### 2. Install Python 3.10
 
-**macOS (using pyenv):**
+**macOS (using Homebrew):**
 ```bash
-# Install pyenv if not already installed
-brew install pyenv
-
-# Install Python 3.10
-pyenv install 3.10
-
-# Set Python 3.10 for this project
-pyenv local 3.10
+brew install python@3.10
 ```
 
 **Ubuntu/Debian:**
@@ -79,13 +72,19 @@ poetry --version
 > ```
 
 ### 4. Configure Poetry to Use Python 3.10
+
+**macOS (Homebrew):**
+```bash
+poetry env use $(brew --prefix python@3.10)/bin/python3.10
+```
+
+**Ubuntu/Windows:**
 ```bash
 poetry env use python3.10
 ```
 
 ### 5. Install Dependencies
 ```bash
-poetry lock
 poetry install
 ```
 
@@ -102,12 +101,6 @@ Visit Ollama and follow the installation instructions for your operating system.
 ### 7. Start the Application
 ```bash
 poetry run streamlit run navigation.py
-```
-
-Or activate the Poetry shell first:
-```bash
-poetry shell
-streamlit run navigation.py
 ```
 
 ## 💻 Usage & Architecture
