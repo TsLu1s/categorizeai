@@ -85,6 +85,7 @@ poetry env use python3.10
 
 ### 5. Install Dependencies
 ```bash
+poetry lock
 poetry install
 ```
 
