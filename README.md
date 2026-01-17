@@ -25,40 +25,72 @@ A versatile NLP text classification application that seamlessly integrates super
 ## 📋 Prerequisites
 
 - Python 3.10 or higher
-- Streamlit
-- Transformers
+- Poetry (Python package manager)
 - For LLM Classification: Ollama API (latest version)
 - 8GB+ RAM (16GB+ recommended for LLM classification)
 
+**Important Note:** Demo Version is not able to run Ollama API, run the app locally for full feature usability.
+
 ## ⚙️ Installation
 
-1. **Clone the Repository**
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/TsLu1s/categorizeai.git
 cd categorizeai
 ```
 
-2. **Set Up Conda Environment**
+### 2. Install Python 3.10
 
-First, ensure you have Conda installed. Then create and activate a new environment with Python 3.10:
-
+**macOS (using pyenv):**
 ```bash
-# Create new environment
-conda create -n categorizeai_env python=3.10
+# Install pyenv if not already installed
+brew install pyenv
 
-# Activate the environment
-conda activate categorizeai_env
+# Install Python 3.10
+pyenv install 3.10
+
+# Set Python 3.10 for this project
+pyenv local 3.10
 ```
 
-3. **Install Dependencies**
-   
+**Ubuntu/Debian:**
 ```bash
-pip install -r requirements.txt
+sudo apt update
+sudo apt install python3.10 python3.10-venv
 ```
 
-4. **Install Ollama**
-   
-Visit Ollama API and follow the installation instructions for your operating system.
+**Windows:**
+
+Download and install Python 3.10 from [python.org](https://www.python.org/downloads/)
+
+### 3. Install Poetry
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+Verify installation:
+```bash
+poetry --version
+```
+
+> **Note:** You may need to add Poetry to your PATH. Follow the instructions shown after installation or add this to your shell config:
+> ```bash
+> export PATH="$HOME/.local/bin:$PATH"
+> ```
+
+### 4. Configure Poetry to Use Python 3.10
+```bash
+poetry env use python3.10
+```
+
+### 5. Install Dependencies
+```bash
+poetry install
+```
+
+### 6. Install Ollama (Optional - for LLM Classification)
+
+Visit Ollama and follow the installation instructions for your operating system.
 
 <div align="left">
    
@@ -66,9 +98,14 @@ Visit Ollama API and follow the installation instructions for your operating sys
 
 </div>
 
-5. **Start the Application**
-
+### 7. Start the Application
 ```bash
+poetry run streamlit run navigation.py
+```
+
+Or activate the Poetry shell first:
+```bash
+poetry shell
 streamlit run navigation.py
 ```
 
@@ -131,7 +168,7 @@ Leverage any of the Ollama LLMs for advanced classification tasks. Best suited f
    * Visualize prediction distributions and confidence levels across files
    * Export structured results with probabilities for each category
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
